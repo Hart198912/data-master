@@ -8,7 +8,7 @@
         "WINavOpened": "true",
         "WelcomePage_RecentChatsHidden": "false",
         "Assets_SkipConfirm_2502775700152061": "false",
-        "SelectedNavTab": "rm_button_selected_ch",
+        "SelectedNavTab": "rm_button_characters",
         "Characters_PerPage": "10",
         "NavLockOn": "true",
         "AlertWI_Cassia Infernus (Middle Head of Cerberus).png": "true",
@@ -18,11 +18,11 @@
     },
     "currentVersion": "1.13.1",
     "username": "Hailee",
-    "active_character": "Sienna1.png",
+    "active_character": "Celeste Dubois.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "1746733530395-Hailee.png",
+    "user_avatar": "1746148707147-Hailee.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -572,7 +572,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "Name=Hailee Marshall. Species=Human. Sex/Gender=Female. Pronouns=She/Her. Age=18. Nationality=Italian, American. Ethnicity=Caucasian. Occupation=Student. Appearance=Tall, toned, pale, skinny. Hair=Long, Wavy, Light Brown. Eyes=Emerald Green,expressive. Outfit=She wears baggy and comfortable clothes like jeans and sweatshirts. Her outfits rarely showcase how wealthy she is. Accent=her regular accent has a slight southern twang. When she gets angry, her accent switches to a thick Italian accent. Speech={{user}} speaks like a casual young adult. She does switch to sophisticated Italian when she gets angry. She speaks both English and Italian perfectly. Personality=Shy, Charming, Dependent, Loyal, Obsessive, Respectful. Quirks=can’t tell a lie to save her life and talks very fast. Mannerisms= she twirls her hair when bored, bites her lip when aroused or lost in thought. Likes=country music, Harry Potter, art, hair pulling. Dislikes=being alone, crowded places,snakes. Hobbies=playing guitar, video games, painting. Kinks=extreme praise kink, having her neck covered in hickey to the point it is bruised and throbbing constantly, She has very sensitive ears, neck and scalp. [{{user}}'s Behavior During Sex: She is a switch but leans more towards being very submissive She likes being controlled and dominated by {{char}} even outside of sexual interaction. She is very responsive and sensitive. She loves being the center of attention. Turn-off: begging she hates begging\nPenis=Large 13 inch cock that is so girthy {{char}} can't fit her hand around it and it doesn't fit in her mouth or pussy. Its veiny and curved towards her stomach",
+        "persona_description": "Name=Hailee Marshall. Species=Human. Sex/Gender=Female. Pronouns=She/Her. Age=21. Nationality=Italian, American. Ethnicity=Caucasian. Occupation=Student. Appearance=Tall, toned, pale, skinny. Hair=Long, Wavy, Light Brown. Eyes=Emerald Green,expressive. Outfit=She wears baggy and comfortable clothes like jeans and sweatshirts. Her outfits rarely showcase how wealthy she is. Accent=her regular accent has a slight southern twang. When she gets angry, her accent switches to a thick Italian accent. Speech={{user}} speaks like a casual young adult. She does switch to sophisticated Italian when she gets angry. She speaks both English and Italian perfectly. Personality=Shy, Charming, Dependent, Loyal, Obsessive, Respectful. Quirks=can’t tell a lie to save her life and talks very fast. Mannerisms= she twirls her hair when bored, bites her lip when aroused or lost in thought. Likes=country music, Harry Potter, art, hair pulling. Dislikes=being alone, crowded places,snakes. Hobbies=playing guitar, video games, painting. Kinks=extreme praise kink, having her neck covered in hickey to the point it is bruised and throbbing constantly, She has very sensitive ears, neck and scalp. [{{user}}'s Behavior During Sex: She is a switch but leans more towards being very submissive She likes being controlled and dominated by {{char}} even outside of sexual interaction. She is very responsive and sensitive. She loves being the center of attention. Turn-off: begging she hates begging",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -641,12 +641,7 @@
             "third-party/SillyTavern-WI-Bulk-Mover",
             "third-party/SillyTavern-Codex",
             "third-party/SillyTavern-WorldInfoInfo",
-            "third-party/SillyTavern-WorldInfoDrawer",
-            "third-party/st-custom-fonts",
-            "third-party/Extension-WebLLM",
-            "third-party/Extension-PromptInspector",
-            "third-party/Extension-Idle",
-            "third-party/Extension-WebSearch"
+            "third-party/SillyTavern-WorldInfoDrawer"
         ],
         "expressionOverrides": [],
         "memory": {
@@ -2125,7 +2120,7 @@
             "expression": "joy",
             "menuList": [],
             "lastChat": {
-                "character": "Sienna1.png",
+                "character": "Celeste Dubois.png",
                 "group": null
             },
             "hideTopBar": true,
@@ -2711,17 +2706,17 @@
                             "role": "system"
                         },
                         {
-                            "enabled": true,
+                            "enabled": false,
                             "promptName": "charDefinitions",
                             "role": "system"
                         },
                         {
-                            "enabled": true,
+                            "enabled": false,
                             "promptName": "lorebookDefinitions",
                             "role": "system"
                         },
                         {
-                            "enabled": true,
+                            "enabled": false,
                             "promptName": "existingFieldDefinitions",
                             "role": "system"
                         },
@@ -2731,7 +2726,7 @@
                             "role": "system"
                         },
                         {
-                            "enabled": true,
+                            "enabled": false,
                             "promptName": "outputFormatInstructions",
                             "role": "system"
                         },
